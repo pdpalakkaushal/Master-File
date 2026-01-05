@@ -118,7 +118,7 @@ def poll_queue(status_q, progress_placeholder):
 
 # Streamlit UI
 def main():
-    st.title("⚡ Cross-Join Split & Zip (Streamlit Version)")
+    st.title("⚡  Master File (Streamlit Version)")
 
     shop_file = st.file_uploader("Upload Shop File (Excel/CSV)", type=["csv", "xlsx", "xls"])
     sku_file = st.file_uploader("Upload SKU File (Excel/CSV)", type=["csv", "xlsx", "xls"])
